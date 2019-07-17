@@ -23,7 +23,16 @@ client.on('message', msg => {
     msg.reply("", {files: ["https://i.ibb.co/VMhpBV1/1244827899324.jpg"]});
   }
   else if (msg.content.toLowerCase().includes("hamster")) {
-    msg.reply('uing euy...?')
+    var x = Math.floor((Math.random() * 2) + 1);
+    switch(x) {
+      case '1':  msg.reply('uing euy...?');
+        break;
+      case '2':  msg.reply('okaaay~');
+        break;
+      default:
+        msg.reply('oh oh oh');
+    }
+   
   }
   else if (msg.content.includes("edf") || msg.content.includes("Edf")) {
     msg.reply('EDF! EDF!')
