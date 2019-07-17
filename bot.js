@@ -28,7 +28,7 @@ client.on('message', msg => {
           default: msg.reply('oh oh oh');
         }
       }
-      else if (msg.content.includes("edf") || msg.content.includes("Edf")) {
+      else if (msg.content.toLowerCase().includes("edf")) {
         switch(Math.floor((Math.random() * 3) + 1)) {
           case 1: msg.reply('EDF!'); break;
           case 2: msg.reply('EDF! EDF!'); break;
