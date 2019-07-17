@@ -64,7 +64,7 @@ client.on('message', msg => {
         
         if (t2 != ""){
             msg.reply("", {files: [t2]});
-        } else {
+        } else if (t1 != "") {
             msg.reply(t1); 
         }
     }
