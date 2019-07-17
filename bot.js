@@ -48,6 +48,9 @@ client.on('message', msg => {
       else if (msg.content.toLowerCase().includes("azis")) {
         msg.reply("", {files: ["https://i.ibb.co/GPFY4SC/download.jpg"]});
       }
+      else if (msg.content.toLowerCase().includes("meow")) {
+        msg.reply('uh...sonic?')
+      }
    }
 })
 
