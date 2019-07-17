@@ -19,6 +19,9 @@ client.on('message', msg => {
   else if (msg.content === 'Gandeng' || msg.content === 'gandeng') {
     msg.reply('nying protes wae')
   }
+  else if (msg.content.toLowerCase().includes("gay")) {
+    msg.reply("", {files: ["https://i.ibb.co/VMhpBV1/1244827899324.jpg"]});
+  }
   else if (msg.content.toLowerCase().includes("hamster")) {
     msg.reply('uing euy...?')
   }
