@@ -41,7 +41,7 @@ client.on('message', msg => {
         msg.reply('uh...meow?')
       }
       else if (msgl.includes("!play")) {
-        msg.reply('play weh sorangan make nitah batur sagala dasar gey!')
+        msg.reply('play weh sorangan make nitah batur sagala dasar gay!')
       }
       else if (msgl.includes("astolfo")) {
         msg.reply("", {files: ["https://i.ibb.co/KjwPJkB/71-PPl-Cicw0-L-SX425.jpg"]});
