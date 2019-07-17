@@ -23,15 +23,20 @@ client.on('message', msg => {
     msg.reply("", {files: ["https://i.ibb.co/VMhpBV1/1244827899324.jpg"]});
   }
   else if (msg.content.toLowerCase().includes("hamster")) {
-    switch(Math.floor((Math.random() * 2) + 1)) {
+    switch(Math.floor((Math.random() * 3) + 1)) {
       case 1: msg.reply('uing euy...?'); break;
       case 2: msg.reply('okaaay~'); break;
+      case 3: msg.reply('oh oh oh'); break;
       default: msg.reply('oh oh oh');
     }
-   
   }
   else if (msg.content.includes("edf") || msg.content.includes("Edf")) {
-    msg.reply('EDF! EDF!')
+    switch(Math.floor((Math.random() * 3) + 1)) {
+      case 1: msg.reply('EDF!'); break;
+      case 2: msg.reply('EDF! EDF!'); break;
+      case 3: msg.reply('EDF!! EDF!!'); break;
+      default: msg.reply('EDF!! EDF!!');
+    }
   }
   else if (msg.content.toLowerCase().includes("balap")) {
     msg.reply('uh...meow?')
