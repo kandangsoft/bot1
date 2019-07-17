@@ -38,7 +38,7 @@ client.on('message', msg => {
     msg.reply("", {files: ["https://i.ibb.co/GPFY4SC/download.jpg"]});
   }
   else if (msg.content.toLowerCase().includes("ucing")) {
-    msg.reply('meow')
+    msg.reply('meow meow')
   }
 })
 
