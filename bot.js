@@ -32,7 +32,7 @@ client.on('message', msg => {
     msg.reply('uh...meow?')
   }
   else if (msg.content.toLowerCase().includes("!play")) {
-    msg.reply('nyerah aing gagal wae nyetel music na ampun...')
+    msg.reply('play weh sorangan make nitah batur sagala dasar gey!')
   }
   else if (msg.content.toLowerCase().includes("astolfo")) {
     msg.reply("", {files: ["https://i.ibb.co/KjwPJkB/71-PPl-Cicw0-L-SX425.jpg"]});
