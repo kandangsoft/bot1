@@ -8,19 +8,20 @@ client.on('ready', () => {
  
 client.on('message', msg => {
   if (!msg.author.bot) {
-      if (msg.content.toLowerCase().includes('gay') && msg.content.toLowerCase().includes('hamster')) {
+      var msgl = msg.content.toLowerCase();
+      if (msgl.includes('gay') && msgl.includes('hamster')) {
         msg.reply('maneh nu gay')
       }
-      else if (msg.content.toLowerCase().includes('gandeng') && msg.content.toLowerCase().includes('hamster')) {
+      else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
         msg.reply('nying protes wae')
       }
-      else if (msg.content.toLowerCase() === 'gandeng') {
+      else if (msgl === 'gandeng') {
         msg.reply('nying protes wae')
       }
-      else if (msg.content.toLowerCase().includes("gay")) {
+      else if (msgl.includes("gay")) {
         msg.reply("", {files: ["https://i.ibb.co/q56yQKj/1244827899324.jpg"]});
       }
-      else if (msg.content.toLowerCase().includes("hamster")) {
+      else if (msgl.includes("hamster")) {
         switch(Math.floor((Math.random() * 3) + 1)) {
           case 1: msg.reply('uing euy...?'); break;
           case 2: msg.reply('okaaay~'); break;
@@ -28,7 +29,7 @@ client.on('message', msg => {
           default: msg.reply('oh oh oh');
         }
       }
-      else if (msg.content.toLowerCase().includes("edf")) {
+      else if (msgl.includes("edf")) {
         switch(Math.floor((Math.random() * 3) + 1)) {
           case 1: msg.reply('EDF!'); break;
           case 2: msg.reply('EDF! EDF!'); break;
@@ -36,20 +37,20 @@ client.on('message', msg => {
           default: msg.reply('EDF!! EDF!!');
         }
       }
-      else if (msg.content.toLowerCase().includes("balap")) {
+      else if (msgl.includes("balap")) {
         msg.reply('uh...meow?')
       }
-      else if (msg.content.toLowerCase().includes("!play")) {
+      else if (msgl.includes("!play")) {
         msg.reply('play weh sorangan make nitah batur sagala dasar gey!')
       }
-      else if (msg.content.toLowerCase().includes("astolfo")) {
+      else if (msgl.includes("astolfo")) {
         msg.reply("", {files: ["https://i.ibb.co/KjwPJkB/71-PPl-Cicw0-L-SX425.jpg"]});
       }
-      else if (msg.content.toLowerCase().includes("azis")) {
+      else if (msgl.includes("azis")) {
         msg.reply("", {files: ["https://i.ibb.co/GPFY4SC/download.jpg"]});
       }
-      else if (msg.content.toLowerCase().includes("meow")) {
-        msg.reply('uh...sonic?')
+      else if (msgl.includes("sapi")) {
+        msg.reply("", {files: ["https://i.ibb.co/WP3yG92/mcow.jpg"]});
       }
    }
 })
