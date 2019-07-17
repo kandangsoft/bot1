@@ -7,10 +7,7 @@ client.on('ready', () => {
 });
  
 client.on('message', msg => {
-  if (msg.content.toLowerCase().includes("hamster na gay") || msg.content.toLowerCase().includes("hamster gay")) {
-    msg.reply('maneh nu gay')
-  }
-  else if (msg.content.toLowerCase().includes('gay') && msg.content.toLowerCase().includes('hamster')) {
+  if (msg.content.toLowerCase().includes('gay') && msg.content.toLowerCase().includes('hamster')) {
     msg.reply('maneh nu gay')
   }
   else if (msg.content.toLowerCase().includes('gandeng') && msg.content.toLowerCase().includes('hamster')) {
