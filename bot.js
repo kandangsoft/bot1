@@ -18,7 +18,7 @@ client.on('message', msg => {
         msg.reply('nying protes wae')
       }
       else if (msg.content.toLowerCase().includes("gay")) {
-        msg.reply("", {files: ["https://i.ibb.co/VMhpBV1/1244827899324.jpg"]});
+        msg.reply("", {files: ["https://i.ibb.co/q56yQKj/1244827899324.jpg"]});
       }
       else if (msg.content.toLowerCase().includes("hamster")) {
         switch(Math.floor((Math.random() * 3) + 1)) {
