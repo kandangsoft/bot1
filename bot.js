@@ -52,9 +52,6 @@ client.on('message', msg => {
       else if (msgl.includes("sapi")) {
         msg.reply("", {files: ["https://i.ibb.co/WP3yG92/mcow.jpg"]});
       }
-      else if (msgl.includes("host")) {
-        msg.reply("", {files: ["https://i.ibb.co/kDQnDGP/host-club.jpg"]});
-      }
       else if (msgl.includes("kekar")) {
         msg.reply("", {files: ["https://i.ibb.co/1d3pYr1/muscle-march.jpg"]});
       }
