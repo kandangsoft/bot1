@@ -14,7 +14,7 @@ client.on('message', msg => {
       else if (msg.content.toLowerCase().includes('gandeng') && msg.content.toLowerCase().includes('hamster')) {
         msg.reply('nying protes wae')
       }
-      else if (msg.content === 'Gandeng' || msg.content === 'gandeng') {
+      else if (msg.content.toLowerCase() === 'gandeng') {
         msg.reply('nying protes wae')
       }
       else if (msg.content.toLowerCase().includes("gay")) {
