@@ -25,9 +25,9 @@ client.on('message', msg => {
   else if (msg.content.toLowerCase().includes("hamster")) {
     var x = Math.floor((Math.random() * 2) + 1);
     switch(x) {
-      case '1':  msg.reply('uing euy...?');
+      case 1:  msg.reply('uing euy...?');
         break;
-      case '2':  msg.reply('okaaay~');
+      case 2:  msg.reply('okaaay~');
         break;
       default:
         msg.reply('oh oh oh');
