@@ -23,8 +23,7 @@ client.on('message', msg => {
     msg.reply("", {files: ["https://i.ibb.co/VMhpBV1/1244827899324.jpg"]});
   }
   else if (msg.content.toLowerCase().includes("hamster")) {
-    var x = Math.floor((Math.random() * 2) + 1);
-    switch(x) {
+    switch(Math.floor((Math.random() * 2) + 1)) {
       case 1: msg.reply('uing euy...?'); break;
       case 2: msg.reply('okaaay~'); break;
       default: msg.reply('oh oh oh');
