@@ -49,7 +49,7 @@ client.on('message', msg => {
 			t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
 		}
 		else if (msgl.includes("astolfo")) {
-			t2 = "https://i.ibb.co/KjwPJkB/71-PPl-Cicw0-L-SX425.jpg";
+			t2 = "https://i.ibb.co/XJVDqzM/astolfo.jpg";
 		}
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
