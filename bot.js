@@ -41,7 +41,7 @@ client.on('message', msg => {
 				case 3: t1 = 'EDF!! EDF!!'; break;
 			}
 		}
-		else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic")) {
+		else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing")) {
 			t1 = 'uh...meow?'
 		}
 		else if (msgl.includes("!play")) {
@@ -52,12 +52,6 @@ client.on('message', msg => {
 		}
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
-		}
-		else if (msgl.includes("sapi")) {
-			t2 = "https://i.ibb.co/WP3yG92/mcow.jpg";
-		}
-		else if (msgl.includes("kekar")) {
-			t2 = "https://i.ibb.co/1d3pYr1/muscle-march.jpg";
 		}
         
         /*======================================================================*/
