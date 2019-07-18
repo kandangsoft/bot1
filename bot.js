@@ -26,7 +26,7 @@ client.on('message', msg => {
 		else if (msgl.includes("gay")) {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 		}
-		else if (msgl.includes("hamster")) {
+		else if (msgt.includes("hamster")) {
 			switch(Math.floor((Math.random() * 4) + 1)) {
 				case 1: t1 = 'uing euy...?'; break;
 				case 2: t1 = 'okaaay~'; break;
@@ -44,7 +44,7 @@ client.on('message', msg => {
 		else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 			t1 = 'uh...meow?'
 		}
-		else if (msgl.includes("!play")) {
+		else if (msgl[0] == "!play") {
 			t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
 		}
 		else if (msgl.includes("astolfo")) {
