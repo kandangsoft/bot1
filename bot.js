@@ -27,11 +27,12 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 		}
 		else if (msgt.includes("hamster")) {
-			switch(Math.floor((Math.random() * 4) + 1)) {
+			switch(Math.floor((Math.random() * 5) + 1)) {
 				case 1: t1 = 'uing euy...?'; break;
 				case 2: t1 = 'okaaay~'; break;
 				case 3: t1 = 'oh oh oh'; break;
 				case 4: t1 = 'aing hamster...'; break;
+				case 5: t1 = 'I love man'; break;
 			}
 		}
 		else if (msgl.includes("edf")) {
