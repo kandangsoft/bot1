@@ -65,4 +65,10 @@ client.on('message', msg => {
     }
 })
 
+client.on('guildMemberAdd', member => {
+	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
+	if (!channel) return;
+	channel.send(`Welcome to the club, ${member}`);
+});
+
 client.login(process.env.BOT_TOKEN);
