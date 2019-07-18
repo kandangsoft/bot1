@@ -54,6 +54,9 @@ client.on('message', msg => {
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
+	    	else if (msgl.includes("dfgdhhr")) {
+			t1 = 'sedih euweuh nu ngajak ngobrol...'
+		}
         
         /*======================================================================*/
         
