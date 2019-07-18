@@ -41,7 +41,7 @@ client.on('message', msg => {
 				case 3: t1 = 'EDF!! EDF!!'; break;
 			}
 		}
-		else if (msgl.includes("balap")) {
+		else if (msgl.includes("balap") || msgl.includes("meow")) {
 			t1 = 'uh...meow?'
 		}
 		else if (msgl.includes("!play")) {
