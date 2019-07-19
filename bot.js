@@ -18,10 +18,10 @@ client.on('message', msg => {
 			t1 = 'maneh nu gay';
 		}
 		else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
-			t1 = 'nying protes wae';
+			t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 		}
 		else if (msgt === 'gandeng') {
-			t1 = 'nying protes wae';
+			t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 		}
 		else if (msgl.includes("gay")) {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
