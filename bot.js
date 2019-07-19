@@ -54,7 +54,7 @@ client.on('message', msg => {
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
-	    	elseif (message.attachments.size > 0) {
+	    	else if (message.attachments.size > 0) {
 		    if (message.attachments.every(attachIsImage)){
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		    }
