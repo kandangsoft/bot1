@@ -55,7 +55,7 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
 	    	else if (msg.attachments.size > 0) {
-			if (message.attachments.every(attachIsImage)){
+			if (msg.attachments.every(attachIsImage)){
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 			}
 		}
