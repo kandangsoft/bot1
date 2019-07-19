@@ -54,12 +54,6 @@ client.on('message', msg => {
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
-	    	else if (message.attachments.size > 0) {
-		    if (message.attachments.every(attachIsImage)){
-			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
-		    }
-		}
-
         
         /*======================================================================*/
         
@@ -76,11 +70,5 @@ client.on('guildMemberAdd', member => {
 	if (!channel) return;
 	channel.send(`Selamat datang, ${member}`);
 });
-
-function attachIsImage(msgAttach) {
-    var url = msgAttach.url;
-    //True if this url is a png image.
-    return url.indexOf("png", url.length - "png".length /*or 3*/) !== -1;
-}
 
 client.login(process.env.BOT_TOKEN);
