@@ -57,6 +57,8 @@ client.on('message', msg => {
 	    	else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
+			} else if (msg.attachments.every(attachIsImage2)){
+				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 			}
 		}
         
@@ -80,6 +82,12 @@ function attachIsImage(msgAttach) {
     var url = msgAttach.url;
     //True if this url is a png image.
     return url.indexOf("png", url.length - "png".length /*or 3*/) !== -1;
+}
+
+function attachIsImage2(msgAttach) {
+    var url = msgAttach.url;
+    //True if this url is a jpg image.
+    return url.indexOf("jpg", url.length - "jpg".length /*or 3*/) !== -1;
 }
 
 client.login(process.env.BOT_TOKEN);
