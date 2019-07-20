@@ -26,6 +26,7 @@ client.on('message', msg => {
 		else if (msgl.includes("gay")) {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 		}
+	    	/*
 		else if (msgt.includes("hamster")) {
 			switch(Math.floor((Math.random() * 5) + 1)) {
 				case 1: t1 = 'uing euy...?'; break;
@@ -35,6 +36,7 @@ client.on('message', msg => {
 				case 5: t1 = 'I love man'; break;
 			}
 		}
+		*/
 		else if (msgl.includes("edf")) {
 			switch(Math.floor((Math.random() * 3) + 1)) {
 				case 1: t1 = 'EDF!'; break;
