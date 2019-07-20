@@ -26,7 +26,7 @@ client.on('message', msg => {
 		else if (msgl.includes("gay")) {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 		}
-	    	/*
+	    /*
 		else if (msgt.includes("hamster")) {
 			switch(Math.floor((Math.random() * 5) + 1)) {
 				case 1: t1 = 'uing euy...?'; break;
@@ -56,7 +56,6 @@ client.on('message', msg => {
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
-	    	/*
 	    	else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
@@ -64,7 +63,6 @@ client.on('message', msg => {
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 			}
 		}
-		*/
         
         /*======================================================================*/
         
