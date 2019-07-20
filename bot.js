@@ -56,6 +56,7 @@ client.on('message', msg => {
 		else if (msgl.includes("azis")) {
 			t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 		}
+	    /*
 	    	else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
@@ -63,6 +64,7 @@ client.on('message', msg => {
 				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 			}
 		}
+		*/
         
         /*======================================================================*/
         
