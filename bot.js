@@ -13,7 +13,7 @@ client.on('message', msg => {
         var t1 = "";
 	    var t2 = "";
         /*======================================================================*/
-	if (msgl.includes("edf2")) {
+	if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
 			case 2: t1 = "\nOur soldiers are prepared for any alien threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
