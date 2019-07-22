@@ -13,7 +13,7 @@ client.on('message', msg => {
         var t1 = "";
 	    var t2 = "";
         /*======================================================================*/
-        
+        /*
         if (msgl.includes('gay') && msgl.includes('hamster')) {
 			t1 = 'maneh nu gay';
 		}
@@ -32,7 +32,7 @@ client.on('message', msg => {
 				case 2: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
 				case 3: t2 = "https://i.ibb.co/VpyFH09/hamster5.jpg"; break;	
 			}
-			/*
+			
 			switch(Math.floor((Math.random() * 5) + 1)) {
 				case 1: t1 = 'uing euy...?'; break;
 				case 2: t1 = 'okaaay~'; break;
@@ -40,8 +40,9 @@ client.on('message', msg => {
 				case 4: t1 = 'aing hamster...'; break;
 				case 5: t1 = 'I love man'; break;
 			}
-			*/
+			
 		}
+		*/
 	    /*
 		else if (msgl.includes("edf")) {
 			switch(Math.floor((Math.random() * 3) + 1)) {
