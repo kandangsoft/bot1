@@ -15,7 +15,7 @@ client.on('message', msg => {
         /*======================================================================*/
 	if (msgl.includes("edf2")) {
 		switch(Math.floor((Math.random() * 1) + 1)) {
-			case 1: t1 = "To save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe\'ll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
+			case 1: t1 = "\n&#9833;To save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe\'ll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
 		}
 	}
         /*
