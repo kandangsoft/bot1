@@ -13,6 +13,7 @@ client.on('message', msg => {
         var t1 = "";
 	    var t2 = "";
         /*======================================================================*/
+	    /*
 	if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
@@ -25,6 +26,7 @@ client.on('message', msg => {
 			case 8: t1 = "\nA legendary hero soon will lead us to glory\nEight years ago he sunk the mothership says history\nTomorrow we will follow this brave soul to victory\nThe EDF deploys!"; break;
 		}
 	}
+	*/
         /*
         if (msgl.includes('gay') && msgl.includes('hamster')) {
 			t1 = 'maneh nu gay';
