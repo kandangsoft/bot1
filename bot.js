@@ -13,7 +13,13 @@ client.on('message', msg => {
         var t1 = "";
 	    var t2 = "";
         /*======================================================================*/
-	    /*
+	if (msgt.includes("hamster")) {
+		switch(Math.floor((Math.random() * 2) + 1)) {
+			case 1: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
+			case 2: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
+		}
+	}
+	   /*
 	if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
