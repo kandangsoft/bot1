@@ -4,27 +4,29 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    var guild2 = client.guilds.get('600603089753473054');
-    if(guild2 && guild2.channels.get('600603089753473056')){
-        guild2.channels.get('600603089753473056').send("ngilu euy...").then(() => client.destroy());
+    var guild = client.guilds.get('600603089753473054');
+    if(guild && guild.channels.get('600603089753473056')){
+        guild.channels.get('600603089753473056').send("ngilu euy...").then(() => client.destroy());
     }
 });
 
-/*
+
 client.on('message', msg => {
     if (!msg.author.bot) {
         var msgt = msg.content.toLowerCase();
         var msgl = msgt.split(" ");
         var t1 = "";
 	var t2 = "";
-        
-	if (msgt.includes("hamster")) {
+        if (msgt.includes("test123")) {
+		t1 = 'okaaay';
+	}
+	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 2) + 1)) {
 			case 1: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 			case 2: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
 		}
 	}
-	if (msgl.includes("edf")) {
+	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
 			case 2: t1 = "\nOur soldiers are prepared for any alien threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
@@ -36,7 +38,7 @@ client.on('message', msg => {
 			case 8: t1 = "\nA legendary hero soon will lead us to glory\nEight years ago he sunk the mothership says history\nTomorrow we will follow this brave soul to victory\nThe EDF deploys!"; break;
 		}
 	}
-        if (msgl.includes('gay') && msgl.includes('hamster')) {
+        else if (msgl.includes('gay') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gay';
 	}
 	else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
