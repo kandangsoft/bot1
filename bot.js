@@ -1,12 +1,16 @@
-/*
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+    var guild = client.guilds.get('406354502023774208');
+    if(guild && guild.channels.get('406354502464045069')){
+        guild.channels.get('406354502464045069').send("Oh my body and soul...").then(() => client.destroy());
+    }
 });
- 
+
+/*
 client.on('message', msg => {
     if (!msg.author.bot) {
         var msgt = msg.content.toLowerCase();
@@ -88,7 +92,7 @@ client.on('message', msg => {
         }
     }
 })
-
+*/
 client.on('guildMemberAdd', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
 	if (!channel) return;
@@ -108,20 +112,3 @@ function attachIsImage2(msgAttach) {
 }
 
 client.login(process.env.BOT_TOKEN);
-*/
-
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.login(process.env.BOT_TOKEN).then(() => {
-    console.log("I am ready");
-    var guild = client.guilds.get('406354502023774208');
-    if(guild && guild.channels.get('406354502464045069')){
-        guild.channels.get('406354502464045069').send("Oh my body and soul...").then(() => client.destroy());
-    } else {
-        console.log("nope");
-        //if the bot doesn't have guild with the id guildid
-        // or if the guild doesn't have the channel with id channelid
-    }
-    client.destroy();
-});
