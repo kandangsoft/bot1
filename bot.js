@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    var guild = client.guilds.get('600603089753473054');
-    if(guild && guild.channels.get('600603089753473056')){
-        guild.channels.get('600603089753473056').send("ngilu euy...").then(() => client.destroy());
+    var guild = client.guilds.get('406354502023774208');
+    if(guild && guild.channels.get('592019399062454302')){
+        guild.channels.get('592019399062454302').send("ngilu euy...").then(() => client.destroy());
     }
 });
 
@@ -20,6 +20,7 @@ client.on('message', msg => {
         if (msgt.includes("test123")) {
 		t1 = 'okaaay';
 	}
+	/*
 	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 2) + 1)) {
 			case 1: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
@@ -86,7 +87,7 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		}
 	}
-        
+        */
         if (t2 != ""){
             msg.reply("", {files: [t2]});
         } else if (t1 != "") {
