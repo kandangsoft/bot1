@@ -4,14 +4,11 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-
     var guild = client.guilds.get('406354502023774208');
     if(guild && guild.channels.get('592019399062454302')){
         guild.channels.get('592019399062454302').send("ngilu euy...").then(() => client.destroy());
     }
-    
 });
-
 
 /*
 client.on('message', msg => {
