@@ -21,6 +21,12 @@ client.on('message', msg => {
         if (msgt.includes("test123")) {
 		t1 = 'okaaay';
 	}
+	else if (msgl.includes('gay') && msgl.includes('hamster')) {
+		t1 = 'maneh nu gay';
+	}
+	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
+		t1 = 'maneh nu gelo';
+	}
 	/*
 	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 2) + 1)) {
@@ -40,9 +46,7 @@ client.on('message', msg => {
 			case 8: t1 = "\nA legendary hero soon will lead us to glory\nEight years ago he sunk the mothership says history\nTomorrow we will follow this brave soul to victory\nThe EDF deploys!"; break;
 		}
 	}
-        else if (msgl.includes('gay') && msgl.includes('hamster')) {
-		t1 = 'maneh nu gay';
-	}
+        
 	else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
