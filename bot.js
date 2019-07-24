@@ -4,9 +4,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    var guild2 = client.guilds.get('406354502023774208');
-    if(guild2 && guild2.channels.get('592019399062454302')){
-        guild2.channels.get('592019399062454302').send("ngilu euy...").then(() => client.destroy());
+    var guild2 = client.guilds.get('600603089753473054');
+    if(guild2 && guild2.channels.get('600603089753473056')){
+        guild2.channels.get('600603089753473056').send("ngilu euy...").then(() => client.destroy());
     }
 });
 
