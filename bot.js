@@ -4,12 +4,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     	console.log('I am ready!');
-	/*
+	
 	var guild = client.guilds.get('406354502023774208');
-	if(guild && guild.channels.get('592019399062454302')){
-		guild.channels.get('592019399062454302').send("Hamster pun tiba, dengan kereta kencana, pangeran pun jatuh cinta padanya oh oh oh").then(() => client.destroy());
+	if(guild && guild.channels.get('406354502464045067')){
+		guild.channels.get('406354502464045067').send("Hamster juga manusia, punya rasa punya hati, jangan samakan dengan pisau belati oh oh oh").then(() => client.destroy());
 	}
-	*/
+	
 });
 
 client.on('message', msg => {
