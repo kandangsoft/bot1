@@ -27,7 +27,9 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	
+	else if (msgl.includes('hayu') && msgt.includes('kowxiii')) {
+		t1 = 'ngke nyusul cenah, keur nyebor tangkal';
+	}
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 11) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
