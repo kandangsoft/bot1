@@ -27,15 +27,23 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	/*
 	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 2) + 1)) {
 			case 1: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 			case 2: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
 		}
+		/*
+		switch(Math.floor((Math.random() * 5) + 1)) {
+			case 1: t1 = 'uing euy...?'; break;
+			case 2: t1 = 'okaaay~'; break;
+			case 3: t1 = 'oh oh oh'; break;
+			case 4: t1 = 'aing hamster...'; break;
+			case 5: t1 = 'I love man'; break;
+		}
+		*/
 	}
 	else if (msgl.includes("edf")) {
-		switch(Math.floor((Math.random() * 8) + 1)) {
+		switch(Math.floor((Math.random() * 11) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
 			case 2: t1 = "\nOur soldiers are prepared for any alien threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
 			case 3: t1 = "\nOur forces have now dwindled and we pull back to regroup\nThe enemy has multiplied and formed a massive group\nWe better beat these bugs before we're all turned to soup\nThe EDF deploys!"; break;
@@ -44,9 +52,11 @@ client.on('message', msg => {
 			case 6: t1 = "\nOur friends were all killed yesterday, as were our families\nToday we might not make it, facing these atrocities\nWe'll never drop our banner despite our casualties\nThe EDF deploys!"; break;
 			case 7: t1 = "\nTwo days ago my brother died, next day my lover fell\nToday most everyone was killed, on that we must not dwell\nBut we will never leave the field, we'll never say farewell\nThe EDF deploys!"; break;
 			case 8: t1 = "\nA legendary hero soon will lead us to glory\nEight years ago he sunk the mothership says history\nTomorrow we will follow this brave soul to victory\nThe EDF deploys!"; break;
+			case 9: t1 = "EDF!"; break;
+			case 10: t1 = "EDF! EDF!"; break;
+			case 11: t1 = "EDF!! EDF!!"; break;
 		}
 	}
-        
 	else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
@@ -55,23 +65,6 @@ client.on('message', msg => {
 	}
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
-	}
-	else if (msgt.includes("hamster")) {
-		switch(Math.floor((Math.random() * 5) + 1)) {
-			case 1: t1 = 'uing euy...?'; break;
-			case 2: t1 = 'okaaay~'; break;
-			case 3: t1 = 'oh oh oh'; break;
-			case 4: t1 = 'aing hamster...'; break;
-			case 5: t1 = 'I love man'; break;
-		}
-
-	}
-	else if (msgl.includes("edf")) {
-		switch(Math.floor((Math.random() * 3) + 1)) {
-			case 1: t1 = 'EDF!'; break;
-			case 2: t1 = 'EDF! EDF!'; break;
-			case 3: t1 = 'EDF!! EDF!!'; break;
-		}
 	}
 	else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 		t1 = 'uh...meow?'
