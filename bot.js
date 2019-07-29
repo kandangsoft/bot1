@@ -50,7 +50,7 @@ client.on('message', msg => {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
 	else if (msgt.includes("hamster")) {
-		t2 = "https://i.ibb.co/9sCrVx4/hamster8.jpg";
+		t2 = "https://i.ibb.co/28wQYJQ/hamster8.jpg";
 		/*
 		switch(Math.floor((Math.random() * 3) + 1)) {
 			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
