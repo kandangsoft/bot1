@@ -49,9 +49,10 @@ client.on('message', msg => {
 	else if (msgt === 'gandeng') {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
+	/*
 	else if (msgt.includes("hamster")) {
 		t2 = "https://i.ibb.co/28wQYJQ/hamster8.jpg";
-		/*
+		
 		switch(Math.floor((Math.random() * 3) + 1)) {
 			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
 			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
@@ -64,8 +65,9 @@ client.on('message', msg => {
 			case 4: t1 = 'aing hamster...'; break;
 			case 5: t1 = 'I love man'; break;
 		}
-		*/
+		
 	}
+	*/
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
