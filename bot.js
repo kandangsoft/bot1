@@ -27,23 +27,7 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	else if (msgt.includes("hamster")) {
-		t2 = "https://i.ibb.co/9sCrVx4/hamster8.jpg";
-		/*
-		switch(Math.floor((Math.random() * 3) + 1)) {
-			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
-			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
-			case 3: t1 = "Bunuh weh aing..."; break;
-		}
-		switch(Math.floor((Math.random() * 5) + 1)) {
-			case 1: t1 = 'uing euy...?'; break;
-			case 2: t1 = 'okaaay~'; break;
-			case 3: t1 = 'oh oh oh'; break;
-			case 4: t1 = 'aing hamster...'; break;
-			case 5: t1 = 'I love man'; break;
-		}
-		*/
-	}
+	
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 11) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
@@ -64,6 +48,23 @@ client.on('message', msg => {
 	}
 	else if (msgt === 'gandeng') {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
+	}
+	else if (msgt.includes("hamster")) {
+		t2 = "https://i.ibb.co/9sCrVx4/hamster8.jpg";
+		/*
+		switch(Math.floor((Math.random() * 3) + 1)) {
+			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
+			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
+			case 3: t1 = "Bunuh weh aing..."; break;
+		}
+		switch(Math.floor((Math.random() * 5) + 1)) {
+			case 1: t1 = 'uing euy...?'; break;
+			case 2: t1 = 'okaaay~'; break;
+			case 3: t1 = 'oh oh oh'; break;
+			case 4: t1 = 'aing hamster...'; break;
+			case 5: t1 = 'I love man'; break;
+		}
+		*/
 	}
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
