@@ -29,8 +29,8 @@ client.on('message', msg => {
 	}
 	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 2) + 1)) {
-			case 1: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
-			case 2: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
+			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
+			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
 		}
 		/*
 		switch(Math.floor((Math.random() * 5) + 1)) {
