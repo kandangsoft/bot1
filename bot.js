@@ -49,8 +49,9 @@ client.on('message', msg => {
 	else if (msgt === 'gandeng') {
 		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
-	/*
+	
 	else if (msgt.includes("hamster")) {
+		/*
 		t2 = "https://i.ibb.co/28wQYJQ/hamster8.jpg";
 		
 		switch(Math.floor((Math.random() * 3) + 1)) {
@@ -58,16 +59,19 @@ client.on('message', msg => {
 			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
 			case 3: t1 = "Bunuh weh aing..."; break;
 		}
-		switch(Math.floor((Math.random() * 5) + 1)) {
+		*/
+		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = 'uing euy...?'; break;
 			case 2: t1 = 'okaaay~'; break;
 			case 3: t1 = 'oh oh oh'; break;
-			case 4: t1 = 'aing hamster...'; break;
+			case 4: t1 = 'uhuy'; break;
 			case 5: t1 = 'I love man'; break;
+			case 6: t1 = 'naon uy...?'; break;
+			case 7: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
+			case 8: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 		}
-		
 	}
-	*/
+	
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
@@ -83,6 +87,7 @@ client.on('message', msg => {
 	else if (msgl.includes("azis")) {
 		t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 	}
+	/*
 	else if (msg.attachments.size > 0) {
 		if (msg.attachments.every(attachIsImage)){
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
@@ -90,7 +95,7 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		}
 	}
-        
+        */
         if (t2 != ""){
             msg.reply("", {files: [t2]});
         } else if (t1 != "") {
