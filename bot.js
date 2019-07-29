@@ -6,8 +6,8 @@ client.on('ready', () => {
     	console.log('I am ready!');
 	/*
 	var guild = client.guilds.get('406354502023774208');
-	if(guild && guild.channels.get('406354502464045067')){
-		guild.channels.get('406354502464045067').send("Mimpi Mimpi! oh oh oh").then(() => client.destroy());
+	if(guild && guild.channels.get('592019399062454302')){
+		guild.channels.get('592019399062454302').send("MEEEEEEEEEEEEOOOOOOOOOOOOOOOOOWW! oh oh oh").then(() => client.destroy());
 	}
 	*/
 });
