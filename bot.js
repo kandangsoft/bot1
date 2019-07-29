@@ -85,7 +85,7 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		}
 	}
-        */
+        
         if (t2 != ""){
             msg.reply("", {files: [t2]});
         } else if (t1 != "") {
