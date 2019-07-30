@@ -23,6 +23,7 @@ Bukannya aku tak takut mati, Hanya karena sering patah hati
 client.on('message', msg => {
     if (!msg.author.bot) {
         var msgt = msg.content.toLowerCase();
+	var msga = msgt.replace("@", "");
         var msgl = msgt.split(" ");
         var t1 = "";
 	var t2 = "";
