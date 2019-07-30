@@ -36,7 +36,7 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	else if (msgl.includes('hayu') && msgt.includes("kowxiii")) {
+	else if (msgl.includes('hayu') && msgt.includes("#2644")) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
 	}
 	else if (msgl.includes("edf")) {
