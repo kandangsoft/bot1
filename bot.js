@@ -38,6 +38,7 @@ client.on('message', msg => {
 	}
 	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii"))) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
+		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
 	}
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 11) + 1)) {
@@ -107,10 +108,12 @@ client.on('message', msg => {
 		}
 	}
         */
-        if (t2 != ""){
-            msg.reply("", {files: [t2]});
+	if (t1 != "" && t2 != ""){
+		msg.reply(t1, {files: [t2]});
+	} else if (t2 != ""){
+           	msg.reply("", {files: [t2]});
         } else if (t1 != "") {
-            msg.reply(t1); 
+            	msg.reply(t1); 
         }
     }
 })
