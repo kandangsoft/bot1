@@ -38,7 +38,7 @@ client.on('message', msg => {
 	}
 	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii"))) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
-		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
+		t2 = 'https://i.ibb.co/Ks8JWJC/ffxiv-15072019-221111-863.jpg';
 	}
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 11) + 1)) {
