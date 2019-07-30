@@ -35,8 +35,8 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	else if (msgl.includes('hayu') && msgt.includes('kowxiii')) {
-		t1 = 'ngke nyusul cenah, keur nyebor tangkal';
+	else if (msgl.includes('hayu') && msgl.includes('@kowxiii')) {
+		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
 	}
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 11) + 1)) {
