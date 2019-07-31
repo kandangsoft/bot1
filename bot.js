@@ -4,16 +4,16 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     	console.log('I am ready!');
-	/*
+	
 	var guild = client.guilds.get('406354502023774208');
 	if(guild && guild.channels.get('406354502464045067')){
-		guild.channels.get('406354502464045067').send("Jangan kau menganggap hamster mudah datang mudah pergi oh oh oh").then(() => client.destroy());
+		guild.channels.get('406354502464045067').send("Cobalah kau lihat dilangit biru, rangkaian hamster-hamster oh oh oh").then(() => client.destroy());
 	}
-	*/
+	
 });
 
 /*
-Cobalah kau lihat dilangit biru, Rangkaian bintang-bintang
+Cobalah kau lihat dilangit biru, rangkaian hamster-hamster oh oh oh
 Ikhlaskah engkau memberiku cinta, Tanpa merasa kehilangan
 Cinta adalah cinta, Bukan mainan bukanlah dusta
 Jangan kau menganggap cinta, Mudah datang mudah pergi
