@@ -36,7 +36,7 @@ client.on('message', msg => {
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
 		t1 = 'maneh nu gelo';
 	}
-	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii"))) {
+	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii") || msgl.includes('kow') || msgl.includes('cow'))) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
 		t2 = 'https://i.ibb.co/Ks8JWJC/ffxiv-15072019-221111-863.jpg';
 	}
