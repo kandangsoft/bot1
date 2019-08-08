@@ -31,28 +31,24 @@ client.on('message', msg => {
 		t1 = 'okaaay';
 	}
 	else if (msgl.includes('gay') && msgl.includes('hamster')) {
-		t1 = 'maneh nu gay';
+		t1 = 'aing gay maneh banci';
 	}
 	else if (msgl.includes('gelo') && msgl.includes('hamster')) {
-		t1 = 'maneh nu gelo';
+		t1 = 'aing gelo maneh banci';
 	}
 	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii") || msgl.includes('kow') || msgl.includes('cow'))) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
 		t2 = 'https://i.ibb.co/Ks8JWJC/ffxiv-15072019-221111-863.jpg';
 	}
 	else if (msgl.includes("edf")) {
-		switch(Math.floor((Math.random() * 11) + 1)) {
-			case 1: t1 = "\nTo save our mother Earth from any alien attack\nFrom vicious giant insects who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
-			case 2: t1 = "\nOur soldiers are prepared for any alien threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
-			case 3: t1 = "\nOur forces have now dwindled and we pull back to regroup\nThe enemy has multiplied and formed a massive group\nWe better beat these bugs before we're all turned to soup\nThe EDF deploys!"; break;
-			case 4: t1 = "\nTo take down giant insects who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the queen's carapace\nThe EDF deploys!"; break;
-			case 5: t1 = "\nThe air force and the navy were destroyed or cast about\nScouts, rangers, wing divers have almost been wiped out\nDespite all this the infantry will stubbornly hold out\nThe EDF deploys!"; break;
-			case 6: t1 = "\nOur friends were all killed yesterday, as were our families\nToday we might not make it, facing these atrocities\nWe'll never drop our banner despite our casualties\nThe EDF deploys!"; break;
-			case 7: t1 = "\nTwo days ago my brother died, next day my lover fell\nToday most everyone was killed, on that we must not dwell\nBut we will never leave the field, we'll never say farewell\nThe EDF deploys!"; break;
-			case 8: t1 = "\nA legendary hero soon will lead us to glory\nEight years ago he sunk the mothership says history\nTomorrow we will follow this brave soul to victory\nThe EDF deploys!"; break;
-			case 9: t1 = "EDF!"; break;
-			case 10: t1 = "EDF! EDF!"; break;
-			case 11: t1 = "EDF!! EDF!!"; break;
+		switch(Math.floor((Math.random() * 7) + 1)) {
+			case 1: t1 = "\nTo save our mother Earth from any hamster attack\nFrom vicious giant hamster who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
+			case 2: t1 = "\nOur soldiers are prepared for any hamster threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
+			case 3: t1 = "\nOur forces have now dwindled and we pull back to regroup\nThe enemy has multiplied and formed a massive group\nWe better beat these hamster before we're all turned to soup\nThe EDF deploys!"; break;
+			case 4: t1 = "\nTo take down giant hamster who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the hamster's carapace\nThe EDF deploys!"; break;
+			case 5: t1 = "EDF!"; break;
+			case 6: t1 = "EDF! EDF!"; break;
+			case 7: t1 = "EDF!! EDF!!"; break;
 		}
 	}
 	else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
