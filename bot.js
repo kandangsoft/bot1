@@ -4,12 +4,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     	console.log('I am ready!');
-	
+	/*
 	var guild = client.guilds.get('406354502023774208');
 	if(guild && guild.channels.get('406354502464045067')){
 		guild.channels.get('406354502464045067').send("Our clan's blood will not stop forever, if you wish I would become a hamster oh oh oh").then(() => client.destroy());
 	}
-	
+	*/
 });
 
 /*
