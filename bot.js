@@ -41,7 +41,7 @@ client.on('message', msg => {
 		t2 = 'https://i.ibb.co/Ks8JWJC/ffxiv-15072019-221111-863.jpg';
 	}
 	else if (msgl.includes("edf")) {
-		switch(Math.floor((Math.random() * 7) + 1)) {
+		switch(Math.floor((Math.random() * 4) + 1)) {
 			case 1: t1 = "\nTo save our mother Earth from any hamster attack\nFrom vicious giant hamster who have once again come back\nWe'll unleash all our forces, we won't cut them any slack\nThe EDF deploys!"; break;
 			case 2: t1 = "\nOur soldiers are prepared for any hamster threats\nThe navy launches ships, the air force send their jets\nAnd nothing can withstand our fixed bayonets\nThe EDF deploys!"; break;
 			case 3: t1 = "\nOur forces have now dwindled and we pull back to regroup\nThe enemy has multiplied and formed a massive group\nWe better beat these hamster before we're all turned to soup\nThe EDF deploys!"; break;
