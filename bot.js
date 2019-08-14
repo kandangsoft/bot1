@@ -60,14 +60,6 @@ client.on('message', msg => {
 	
 	else if (msgt.includes("hamster")) {
 		/*
-		t2 = "https://i.ibb.co/28wQYJQ/hamster8.jpg";
-		
-		switch(Math.floor((Math.random() * 3) + 1)) {
-			case 1: t2 = "https://i.ibb.co/X4hvffB/hamster4.jpg"; break;
-			case 2: t2 = "https://i.ibb.co/k2FZRCX/hamster3.jpg"; break;
-			case 3: t1 = "Bunuh weh aing..."; break;
-		}
-		*/
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = 'uing euy...?'; break;
 			case 2: t1 = 'okaaay~'; break;
@@ -78,14 +70,17 @@ client.on('message', msg => {
 			case 7: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
 			case 8: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 		}
+		*/
 	}
 	
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
+	/*
 	else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 		t1 = 'uh...meow?'
 	}
+	*/
 	else if (msgl[0] == "!play") {
 		t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
 	}
