@@ -4,12 +4,12 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     	console.log('I am ready!');
-	/*
+	
 	var guild = client.guilds.get('406354502023774208');
-	if(guild && guild.channels.get('406354502464045067')){
-		guild.channels.get('406354502464045067').send("https://cdn.discordapp.com/attachments/593599000834473984/610773163294457866/unknown.gif").then(() => client.destroy());
+	if(guild && guild.channels.get('592019399062454302')){
+		guild.channels.get('592019399062454302').send("MEEEEEEEEOOOOOOOOOOOOOOWWWWW!!!!").then(() => client.destroy());
 	}
-	*/
+	
 });
 
 /*
