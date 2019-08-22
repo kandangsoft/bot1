@@ -7,19 +7,12 @@ client.on('ready', () => {
 	/*
 	var guild = client.guilds.get('406354502023774208');
 	if(guild && guild.channels.get('592019399062454302')){
-		guild.channels.get('592019399062454302').send("MEEEEEEEEOOOOOOOOOOOOOOWWWWW!!!!").then(() => client.destroy());
+		guild.channels.get('592019399062454302').send("").then(() => client.destroy());
 	}
 	*/
 });
 
 /*
-Cobalah kau lihat dilangit biru, rangkaian hamster-hamster oh oh oh
-Ikhlaskah engkau memberiku hamster, tanpa merasa kehilangan oh oh oh
-Hamster adalah hamster, bukan mainan bukanlah dusta oh oh oh
-Jangan kau menganggap hamster mudah datang mudah pergi oh oh oh
-Bukannya aku tak takut hamster hanya karena sering patah hati oh oh oh
-*/
-
 client.on('message', msg => {
     if (!msg.author.bot) {
         var msgt = msg.content.toLowerCase();
@@ -59,7 +52,6 @@ client.on('message', msg => {
 	}
 	
 	else if (msgt.includes("hamster")) {
-		/*
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = 'uing euy...?'; break;
 			case 2: t1 = 'okaaay~'; break;
@@ -70,17 +62,14 @@ client.on('message', msg => {
 			case 7: t2 = "https://i.ibb.co/H29Dkb7/hamster7.jpg"; break;
 			case 8: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 		}
-		*/
 	}
 	
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
-	/*
 	else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 		t1 = 'uh...meow?'
 	}
-	*/
 	else if (msgl[0] == "!play") {
 		t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
 	}
@@ -90,7 +79,6 @@ client.on('message', msg => {
 	else if (msgl.includes("azis")) {
 		t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 	}
-	/*
 	else if (msg.attachments.size > 0) {
 		if (msg.attachments.every(attachIsImage)){
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
@@ -98,7 +86,6 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		}
 	}
-        */
 	if (t1 != "" && t2 != ""){
 		msg.reply(t1, {files: [t2]});
 	} else if (t2 != ""){
@@ -108,7 +95,7 @@ client.on('message', msg => {
         }
     }
 })
-
+*/
 client.on('guildMemberAdd', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
 	if (!channel) return;
