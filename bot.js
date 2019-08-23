@@ -51,12 +51,12 @@ client.on('message', msg => {
 		/*t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';*/
 		t1 = "cih";
 	}
-	/*
+	
 	else if (msgt.includes("hamster")) {
-		switch(Math.floor((Math.random() * 8) + 1)) {
-			case 1: t1 = 'uing euy...?'; break;
-			case 2: t1 = 'okaaay~'; break;
-			case 3: t1 = 'oh oh oh'; break;
+		switch(Math.floor((Math.random() * 1) + 1)) {
+			case 1: t1 = 'oh oh oh'; break;
+			case 2: t1 = 'uing euy...?'; break;
+			case 3: t1 = 'okaaay~'; break;
 			case 4: t1 = 'uhuy'; break;
 			case 5: t1 = 'I love man'; break;
 			case 6: t1 = 'naon uy...?'; break;
@@ -64,7 +64,6 @@ client.on('message', msg => {
 			case 8: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 		}
 	}
-	*/
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
