@@ -12,7 +12,6 @@ client.on('ready', () => {
 	*/
 });
 
-/*
 client.on('message', msg => {
     if (!msg.author.bot) {
         var msgt = msg.content.toLowerCase();
@@ -45,12 +44,14 @@ client.on('message', msg => {
 		}
 	}
 	else if (msgl.includes('gandeng') && msgl.includes('hamster')) {
-		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
+		/*t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';*/
+		t1 = "cih";
 	}
 	else if (msgt === 'gandeng') {
-		t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';
+		/*t2 = 'https://i.ibb.co/7VBx3R2/hamster2.jpg';*/
+		t1 = "cih";
 	}
-	
+	/*
 	else if (msgt.includes("hamster")) {
 		switch(Math.floor((Math.random() * 8) + 1)) {
 			case 1: t1 = 'uing euy...?'; break;
@@ -63,13 +64,15 @@ client.on('message', msg => {
 			case 8: t2 = "https://i.ibb.co/8g9CWWy/hamster6.jpg"; break;
 		}
 	}
-	
+	*/
 	else if (msgl.includes("gay")) {
 		t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 	}
+	/*
 	else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 		t1 = 'uh...meow?'
 	}
+	*/
 	else if (msgl[0] == "!play") {
 		t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
 	}
@@ -95,7 +98,7 @@ client.on('message', msg => {
         }
     }
 })
-*/
+
 client.on('guildMemberAdd', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
 	if (!channel) return;
