@@ -30,7 +30,7 @@ client.on('message', msg => {
 	}
 	else if (msgt.includes('hayu') && (msgt.includes("406352186398998528") || msgt.includes("kowxiii") || msgl.includes('kow') || msgl.includes('cow'))) {
 		t1 = 'ngke nyusul cenah, kagok keur nyebor tangkal';
-		t2 = 'https://i.ibb.co/Ks8JWJC/ffxiv-15072019-221111-863.jpg';
+		t2 = 'https://i.ibb.co/m68V12z/ffxiv-22082019-212548-724.jpg';
 	}
 	else if (msgl.includes("edf")) {
 		switch(Math.floor((Math.random() * 4) + 1)) {
@@ -81,6 +81,7 @@ client.on('message', msg => {
 	else if (msgl.includes("azis")) {
 		t2 = "https://i.ibb.co/GPFY4SC/download.jpg";
 	}
+	/*
 	else if (msg.attachments.size > 0) {
 		if (msg.attachments.every(attachIsImage)){
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
@@ -88,6 +89,7 @@ client.on('message', msg => {
 			t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
 		}
 	}
+	*/
 	if (t1 != "" && t2 != ""){
 		msg.reply(t1, {files: [t2]});
 	} else if (t2 != ""){
