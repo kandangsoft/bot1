@@ -73,7 +73,7 @@ client.on('message', msg => {
 	}
 	*/
 	else if (msgl[0] == "!play") {
-		t1 = 'play weh sorangan make nitah batur sagala dasar gay!';
+		t1 = 'play weh sorangan make nitah batur sagala dasar banci!';
 	}
 	else if (msgl.includes("astolfo")) {
 		t2 = "https://i.ibb.co/XJVDqzM/astolfo.jpg";
