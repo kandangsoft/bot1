@@ -32,9 +32,15 @@ client.on('message', msg => {
 	var t2 = "";
 	var t3 = "";
 	var t4 = "";
-	var kowxiii_exclude = 0;
+	var kowxiii_exclude = 1;
 	
-	if (kowxiii_exclude == 0 || msg.member.id != "406352186398998528") {
+	if (kowxiii_exclude == 1 && msg.member.id == "406352186398998528") {
+		
+		if (msgt.includes("squeal")) {
+			t1 = 'oh oh oh';
+		}
+		
+	} else if (kowxiii_exclude == 0 || msg.member.id != "406352186398998528") {
 		
 	/*=======================================================================================================================================================================*/
 		
