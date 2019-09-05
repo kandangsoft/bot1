@@ -108,14 +108,15 @@ client.on('message', msg => {
 		else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
 			t1 = 'uh...meow?'
 		}
+		*/
 		else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
-				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
+				t1 = "Mantab njeng";
 			} else if (msg.attachments.every(attachIsImage2)){
-				t2 = "https://i.ibb.co/1TZqVwT/hamster1.png";
+				t1 = "Mantab njeng";
 			}
 		}
-		*/
+		
 		
 	/*=======================================================================================================================================================================*/
 		
