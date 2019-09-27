@@ -15,8 +15,8 @@ client.on('ready', () => {
 	} else if (client.user.id == "600608154396655616") {
 		
 		var guild = client.guilds.get("406354502023774208");
-		if(guild && guild.channels.get("406354502464045067")){
-			//guild.channels.get("406354502464045067").send("Ngulub ucing di leuweung oh oh oh");
+		if(guild && guild.channels.get("592019399062454302")){
+			guild.channels.get("592019399062454302").send("balap njeng");
 		}
 	}
 });
