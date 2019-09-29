@@ -104,11 +104,11 @@ client.on('message', msg => {
 		else if (msgl.includes("gay")) {
 			t2 = "https://i.ibb.co/q56yQKj/1244827899324.jpg";
 		}
-		/*
-		else if (msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
-			t1 = 'uh...meow?'
+		
+		else if (msgl.includes("gas") || msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
+			t1 = 'Balap njeng'
 		}
-		*/
+		
 		else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
 				t1 = "Mantab njeng";
