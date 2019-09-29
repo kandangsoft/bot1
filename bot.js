@@ -106,7 +106,7 @@ client.on('message', msg => {
 		}
 		
 		else if (msgl.includes("gas") || msgl.includes("balap") || msgl.includes("meow") || msgl.includes("sonic") || msgl.includes("ucing") || msgl.includes("racing")) {
-			t1 = 'Balap njeng'
+			t1 = 'Balap njeng';
 		}
 		
 		else if (msg.attachments.size > 0) {
