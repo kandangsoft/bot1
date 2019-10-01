@@ -16,7 +16,7 @@ client.on('ready', () => {
 		
 		var guild = client.guilds.get("406354502023774208");
 		if(guild && guild.channels.get("406354502464045067")){
-			//guild.channels.get("406354502464045067").send("oh oh oh please hit me more I'm just a sad animal");
+			guild.channels.get("406354502464045067").send("Ngulub ucing di leuweung oh oh oh");
 		}
 	}
 });
