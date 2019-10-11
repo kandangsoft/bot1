@@ -109,6 +109,10 @@ client.on('message', msg => {
 			t1 = 'Balap njeng';
 		}
 		
+		else if (msgl.includes("srang") || msgl.includes("sreng")) {
+			t1 = 'Masak njeng';
+		}
+		
 		else if (msg.attachments.size > 0) {
 			if (msg.attachments.every(attachIsImage)){
 				t1 = "Mantab njeng";
