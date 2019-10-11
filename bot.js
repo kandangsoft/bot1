@@ -109,7 +109,7 @@ client.on('message', msg => {
 			t1 = 'Balap njeng';
 		}
 		
-		else if (msgl.includes("srang") || msgl.includes("sreng")) {
+		else if (msgl.includes("srang") || msgl.includes("sreng") || msgl.includes("masak") || msgl.includes("overcooked") || msgl.includes("overkuk") || msgl.includes("overcooked2")) {
 			t1 = 'Masak njeng';
 		}
 		
