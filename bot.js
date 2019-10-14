@@ -13,16 +13,10 @@ client.on('ready', () => {
 		}
 	// blue oyster
 	} else if (client.user.id == "600608154396655616") {
-		var guild = client.guilds.get("600603089753473054");
-		if(guild && guild.channels.get("600603089753473056")){
-			guild.channels.get("600603089753473056").send("https://i.ibb.co/28S8pDT/astolfo2.jpg");
-		}
-		/*
 		var guild = client.guilds.get("406354502023774208");
 		if(guild && guild.channels.get("406354502464045067")){
 			guild.channels.get("406354502464045067").send("https://i.ibb.co/28S8pDT/astolfo2.jpg");
 		}
-		*/
 	}
 });
 
