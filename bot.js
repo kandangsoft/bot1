@@ -15,7 +15,7 @@ client.on('ready', () => {
 	} else if (client.user.id == "600608154396655616") {
 		var guild = client.guilds.get("406354502023774208");
 		if(guild && guild.channels.get("406354502464045067")){
-			//guild.channels.get("406354502464045067").send("https://i.ibb.co/28S8pDT/astolfo2.jpg");
+			guild.channels.get("406354502464045067").send("https://i.pinimg.com/originals/f2/a9/6e/f2a96e4a5494f1bea3eaa66deb67dd43.jpg");
 		}
 	}
 });
