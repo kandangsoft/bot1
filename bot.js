@@ -4,6 +4,25 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
+	var bo_gen = "aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled";
+	var mr_gen = "";
+	
+	if (bo_gen != "")
+	{
+		var guild = client.guilds.get("406354502023774208");
+		if(guild && guild.channels.get("406354502464045067")){
+			guild.channels.get("406354502464045067").send(bo_gen);
+		}
+	}
+	else if (mr_gen != "")
+	{
+		var guild = client.guilds.get("406354502023774208");
+		if(guild && guild.channels.get("592019399062454302")){
+			guild.channels.get("592019399062454302").send(mr_gen);
+		}
+	}
+	
+	/*
 	// kandang test 13
 	if (client.user.id == "600893459724894208") {
 		
@@ -18,6 +37,7 @@ client.on('ready', () => {
 			//guild.channels.get("406354502464045067").send("ngadaharan ucing");
 		}
 	}
+	*/
 });
 
 client.on('message', msg => {
