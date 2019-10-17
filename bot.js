@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-	var bo_gen = "aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled";
+	var bo_gen = "";
 	var mr_gen = "";
 	
 	if (bo_gen != "")
