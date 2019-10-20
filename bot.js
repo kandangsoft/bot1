@@ -4,8 +4,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-	var bo_gen = "";
-	var mr_gen = "";
+	var bo_gen = "masak njeng";
+	var bo_meow = "";
 	
 	if (bo_gen != "")
 	{
@@ -14,11 +14,11 @@ client.on('ready', () => {
 			guild.channels.get("406354502464045067").send(bo_gen);
 		}
 	}
-	else if (mr_gen != "")
+	else if (bo_meow != "")
 	{
 		var guild = client.guilds.get("406354502023774208");
 		if(guild && guild.channels.get("592019399062454302")){
-			guild.channels.get("592019399062454302").send(mr_gen);
+			guild.channels.get("592019399062454302").send(bo_meow);
 		}
 	}
 	
