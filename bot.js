@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-	var bo_gen = "masak njeng";
+	var bo_gen = "";
 	var bo_meow = "";
 	
 	if (bo_gen != "")
