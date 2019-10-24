@@ -4,8 +4,14 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-	var bo_gen = "aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled";
+	var bo_gen = "";
 	var bo_meow = "";
+	
+	switch(Math.floor((Math.random() * 3) + 1)) {
+		case 1: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
+		case 2: bo_gen = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
+		case 3: bo_gen = "You either die a hero, or live long enough to see yourself become a hamster"; break;
+	}
 	
 	if (bo_gen != "")
 	{
