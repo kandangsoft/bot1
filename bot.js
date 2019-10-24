@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-	/*
+	
 	var bo_gen = "";
 	var bo_meow = "";
 	
@@ -22,7 +22,6 @@ client.on('ready', () => {
 			guild.channels.get("592019399062454302").send(bo_meow);
 		}
 	}
-	*/
 });
 
 client.on('message', msg => {
