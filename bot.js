@@ -7,13 +7,6 @@ client.on('ready', () => {
 	var bo_gen = "";
 	var bo_meow = "";
 	
-	switch(Math.floor((Math.random() * 4) + 1)) {
-		case 1: bo_gen = ""; break;
-		case 2: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
-		case 3: bo_gen = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
-		case 4: bo_gen = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
-	}
-	
 	if (bo_gen != "")
 	{
 		var guild = client.guilds.get("406354502023774208");
@@ -28,23 +21,6 @@ client.on('ready', () => {
 			guild.channels.get("592019399062454302").send(bo_meow);
 		}
 	}
-	
-	/*
-	// kandang test 13
-	if (client.user.id == "600893459724894208") {
-		
-		var guild = client.guilds.get("600603089753473054");
-		if(guild && guild.channels.get("600603089753473056")){
-			//guild.channels.get("600603089753473056").send("Uhuy~");
-		}
-	// blue oyster
-	} else if (client.user.id == "600608154396655616") {
-		var guild = client.guilds.get("406354502023774208");
-		if(guild && guild.channels.get("406354502464045067")){
-			//guild.channels.get("406354502464045067").send("ngadaharan ucing");
-		}
-	}
-	*/
 });
 
 client.on('message', msg => {
