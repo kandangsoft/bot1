@@ -14,7 +14,7 @@ client.on('ready', () => {
 		case 2: test_13 = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
 		case 3: test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
 		case 4: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
-		case 5: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing bayangkeun tah pikir"; break;
+		case 5: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
 	}
 	
 	if (test_13 != "")
