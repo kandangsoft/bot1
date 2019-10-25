@@ -7,6 +7,12 @@ client.on('ready', () => {
 	
 	var bo_gen = "";
 	var bo_meow = "";
+	var test_13 = "";
+	
+	switch(Math.floor((Math.random() * 2) + 1)) {
+		case 1: test_13 = '1'; break;
+		case 2: test_13 = '2'; break;
+	}
 	
 	if (bo_gen != "")
 	{
