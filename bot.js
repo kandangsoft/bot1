@@ -14,6 +14,14 @@ client.on('ready', () => {
 		case 2: test_13 = '2'; break;
 	}
 	
+	if (test_13 != "")
+	{
+		var guild = client.guilds.get("637314014187356177");
+		if(guild && guild.channels.get("637314015214829569")){
+			guild.channels.get("637314015214829569").send(test_13);
+		}
+	}
+	
 	if (bo_gen != "")
 	{
 		var guild = client.guilds.get("406354502023774208");
