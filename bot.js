@@ -9,10 +9,11 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	switch(Math.floor((Math.random() * 3) + 1)) {
+	switch(Math.floor((Math.random() * 4) + 1)) {
 		case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: test_13 = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
 		case 3: test_13 = "You either die a hero, or live long enough to see yourself become a hamster"; break;
+		case 4: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
 	}
 	
 	if (test_13 != "")
