@@ -20,7 +20,7 @@ function testtime(arg) {
 	}
 	
 	//var jam = Math.floor((Math.random() * 10) + 1) * 10000;
-	var jam = 1000000;
+	var jam = 10000000;
 	
 	setTimeout(testtime, jam, 'test');
 }
@@ -34,7 +34,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 1000000, 'test');
+	setTimeout(testtime, 1000, 'test');
 	
 	/*
 	switch(Math.floor((Math.random() * 5) + 1)) {
