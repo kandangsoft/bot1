@@ -19,7 +19,8 @@ function testtime(arg) {
 		guild.channels.get("637314015214829569").send(test_13);
 	}
 	
-	var jam = Math.floor((Math.random() * 10) + 1) * 10000;
+	//var jam = Math.floor((Math.random() * 10) + 1) * 10000;
+	var jam = 50000;
 	
 	setTimeout(testtime, jam, 'test');
 }
@@ -33,7 +34,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 3000, 'test');
+	setTimeout(testtime, 50000, 'test');
 	
 	/*
 	switch(Math.floor((Math.random() * 5) + 1)) {
@@ -43,7 +44,6 @@ client.on('ready', () => {
 		case 4: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
 		case 5: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
 	}
-	*/
 	
 	if (test_13 != "")
 	{
@@ -52,6 +52,7 @@ client.on('ready', () => {
 			guild.channels.get("637314015214829569").send(test_13);
 		}
 	}
+	*/
 	
 	if (bo_gen != "")
 	{
