@@ -9,7 +9,7 @@ function testtime(arg) {
 	
 	if (ran == arg)
 	{
-		test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
+		test_13 = "You either die a hero, or live long enough to see yourself become a Hamster";
 		ran = 5;
 	}
 	else
