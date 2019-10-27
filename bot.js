@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-
+/*
 function testtime(arg) {
 	
 	var test_13 = "";
@@ -32,7 +32,7 @@ function testtime(arg) {
 	setTimeout(testtime, jam, ran);
 }
 
-
+*/
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -41,7 +41,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 1000, 0);
+	//setTimeout(testtime, 1000, 0);
 	
 	/*
 	switch(Math.floor((Math.random() * 5) + 1)) {
