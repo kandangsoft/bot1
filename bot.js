@@ -25,6 +25,7 @@ function testtime(arg) {
 	setTimeout(testtime, jam, 0);
 }
 */
+
 client.on('ready', () => {
     console.log('I am ready!');
 	
@@ -33,7 +34,7 @@ client.on('ready', () => {
 	var test_13 = "";
 	
 	//setTimeout(testtime, 1000, 0);
-	
+	/*
 	switch(Math.floor((Math.random() * 3) + 1)) {
 		case 1: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: bo_gen = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
@@ -54,6 +55,7 @@ client.on('ready', () => {
 			guild.channels.get("592019399062454302").send(bo_meow);
 		}
 	}
+	*/
 });
 
 client.on('message', msg => {
