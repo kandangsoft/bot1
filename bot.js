@@ -22,7 +22,7 @@ function testtime(arg) {
 			guild.channels.get("637314015214829569").send(test_13);
 		}
 		
-		var jam = Math.floor((Math.random() * 3) + 1) * 100000;
+		var jam = Math.floor((Math.random() * 3) + 1) * 1000000;
 	}
 	else
 	{
