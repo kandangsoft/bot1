@@ -33,8 +33,9 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	//setTimeout(testtime, 1000, 0);
 	/*
+	setTimeout(testtime, 1000, 0);
+	
 	switch(Math.floor((Math.random() * 3) + 1)) {
 		case 1: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: bo_gen = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
