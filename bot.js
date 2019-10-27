@@ -23,6 +23,7 @@ function testtime(arg) {
 		}
 		
 		var jam = Math.floor((Math.random() * 3) + 1) * 1000000;
+		var jam = 1000000;
 	}
 	else
 	{
