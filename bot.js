@@ -1,38 +1,38 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client();
-/*
+
 function testtime(arg) {
 	
 	var test_13 = "";
-	var ran = Math.floor((Math.random() * 5) + 1);
+	var ran = Math.floor((Math.random() * 4) + 1);
 	
-	switch(ran) {
-		case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
-		case 2: test_13 = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
-		case 3: test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
-		case 4: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
-		case 5: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
+	if (ran == arg)
+	{
+		test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
+		ran = 5;
+	}
+	else
+	{
+		switch(ran) {
+			case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
+			case 2: test_13 = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
+			case 3: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
+			case 4: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
+		}
 	}
 	
-	if (test_13 != "" && arg != ran)
+	if (test_13 != "")
 	{
 		var guild = client.guilds.get("637314014187356177");
 		if(guild && guild.channels.get("637314015214829569")){
 			guild.channels.get("637314015214829569").send(test_13);
 		}
-		
-		var jam = Math.floor((Math.random() * 3) + 5) * 1000000;
-	}
-	else
-	{
-		var jam = 1000;
 	}
 	
+	var jam = Math.floor((Math.random() * 3) + 5) * 1000000;
 	setTimeout(testtime, jam, ran);
 }
-
-*/
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -41,7 +41,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	//setTimeout(testtime, 1000, 0);
+	setTimeout(testtime, 1000, 0);
 	
 	/*
 	switch(Math.floor((Math.random() * 5) + 1)) {
