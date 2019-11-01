@@ -147,6 +147,10 @@ client.on('message', msg => {
 			t1 = 'Balap njeng';
 		}
 		
+		else if (msgl.includes("tidur") || msgl.includes("sare") || msgl.includes("molor")) {
+			t2 = 'https://i.ibb.co/3rsW0zB/tenor.gif';
+		}
+		
 		else if (msgl.includes("srang") || msgl.includes("sreng") || msgl.includes("masak") || msgl.includes("overcooked") || msgl.includes("overkuk") || msgl.includes("overcooked2")) {
 			t1 = 'Masak njeng';
 		}
