@@ -8,15 +8,21 @@ function testtime(arg) {
 	var ran = Math.floor((Math.random() * 4) + 1);
 	
 	switch(ran) {
+		/*
 		case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
 		case 3: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu bayangkeun tah pikir tekor sarebu aing"; break;
 		case 4: test_13 = "Tong maen dorong atuh nyeri dada sia teh"; break;
+		*/
+		case 1: test_13 = "Oh oh oh"; break;
+		case 2: test_13 = "Bunuh weh aing"; break;
+		case 3: test_13 = "I love man"; break;
+		case 4: test_13 = "Okaaaay~"; break;
 	}
 	
-	var guild = client.guilds.get("637314014187356177");
-	if(guild && guild.channels.get("637314015214829569")){
-		guild.channels.get("637314015214829569").send(test_13);
+	var guild = client.guilds.get("406354502023774208");
+	if(guild && guild.channels.get("406354502464045067")){
+		guild.channels.get("406354502464045067").send(test_13);
 	}
 	
 	var jam = Math.floor((Math.random() * 3) + 5) * 10000000;
@@ -26,7 +32,7 @@ function testtime(arg) {
 client.on('ready', () => {
     console.log('I am ready!');
 	
-	var bo_gen = "Tong maen dorong atuh nyeri dada sia teh";
+	var bo_gen = "";
 	var bo_meow = "";
 	var test_13 = "";
 	
