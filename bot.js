@@ -10,12 +10,12 @@ function testtime(arg) {
 	switch(ran) {
 		case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
-		case 3: test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
+		case 3: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu bayangkeun tah pikir tekor sarebu aing"; break;
 	}
 	
-	var guild = client.guilds.get("637314014187356177");
-	if(guild && guild.channels.get("637314015214829569")){
-		guild.channels.get("637314015214829569").send(test_13);
+	var guild = client.guilds.get("406354502023774208");
+	if(guild && guild.channels.get("406354502464045067")){
+		guild.channels.get("406354502464045067").send(test_13);
 	}
 	
 	var jam = Math.floor((Math.random() * 3) + 5) * 1000000;
