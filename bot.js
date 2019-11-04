@@ -2,18 +2,15 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-/*
 function testtime(arg) {
 	
 	var test_13 = "";
-	var ran = Math.floor((Math.random() * 5) + 1);
+	var ran = Math.floor((Math.random() * 3) + 1);
 	
 	switch(ran) {
 		case 1: test_13 = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
-		case 2: test_13 = "To take down giant HAMSTER who came from outer space\nWe now head underground, for their path we must retrace\nAnd find their giant nest and crush the HAMSTER's carapace\nThe EDF deploys!"; break;
-		case 3: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
-		case 4: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
-		case 5: test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
+		case 2: test_13 = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
+		case 3: test_13 = "You either die a hero, or live long enough to see yourself become a Hamster"; break;
 	}
 	
 	var guild = client.guilds.get("637314014187356177");
@@ -24,7 +21,6 @@ function testtime(arg) {
 	var jam = Math.floor((Math.random() * 3) + 5) * 1000000;
 	setTimeout(testtime, jam, 0);
 }
-*/
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -33,14 +29,15 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	/*
-	setTimeout(testtime, 1000, 0);
+	setTimeout(testtime, 1000000, 0);
 	
+	/*
 	switch(Math.floor((Math.random() * 3) + 1)) {
 		case 1: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
 		case 2: bo_gen = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
 		case 3: bo_gen = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
 	}
+	*/
 	
 	if (bo_gen != "")
 	{
@@ -56,7 +53,6 @@ client.on('ready', () => {
 			guild.channels.get("592019399062454302").send(bo_meow);
 		}
 	}
-	*/
 });
 
 client.on('message', msg => {
