@@ -14,23 +14,23 @@ function testtime(arg) {
 		case 4: test_13 = "Tong maen dorong atuh nyeri dada sia teh"; break;
 	}
 	
-	var guild = client.guilds.get("406354502023774208");
-	if(guild && guild.channels.get("406354502464045067")){
-		guild.channels.get("406354502464045067").send(test_13);
+	var guild = client.guilds.get("637314014187356177");
+	if(guild && guild.channels.get("637314015214829569")){
+		guild.channels.get("637314015214829569").send(test_13);
 	}
 	
-	var jam = Math.floor((Math.random() * 3) + 5) * 1000000;
+	var jam = Math.floor((Math.random() * 3) + 5) * 10000000;
 	setTimeout(testtime, jam, 0);
 }
 
 client.on('ready', () => {
     console.log('I am ready!');
 	
-	var bo_gen = "";
+	var bo_gen = "Tong maen dorong atuh nyeri dada sia teh";
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 1000000, 0);
+	setTimeout(testtime, 10000000, 0);
 	
 	/*
 	switch(Math.floor((Math.random() * 3) + 1)) {
