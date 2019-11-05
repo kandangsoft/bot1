@@ -32,7 +32,7 @@ function testtime(arg) {
 client.on('ready', () => {
     console.log('I am ready!');
 	
-	var bo_gen = "Geuleuh anying ah";
+	var bo_gen = "";
 	var bo_meow = "";
 	var test_13 = "";
 	
