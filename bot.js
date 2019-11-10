@@ -28,7 +28,8 @@ function testtime(arg) {
 }
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    	console.log('I am ready!');
+	client.user.setActivity("FATAL FURRY");
 	
 	var bo_gen = "";
 	var bo_meow = "";
