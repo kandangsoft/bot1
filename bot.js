@@ -5,7 +5,7 @@ const client = new Discord.Client();
 function testtime(arg) {
 	
 	var test_13 = "";
-	var ran = Math.floor((Math.random() * 4) + 1);
+	var ran = Math.floor((Math.random() * 2) + 1);
 	
 	switch(ran) {
 		/*
@@ -14,10 +14,8 @@ function testtime(arg) {
 		case 3: test_13 = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu bayangkeun tah pikir tekor sarebu aing"; break;
 		case 4: test_13 = "Tong maen dorong atuh nyeri dada sia teh"; break;
 		*/
-		case 1: test_13 = "Oh oh oh"; break;
-		case 2: test_13 = "Bunuh weh aing"; break;
-		case 3: test_13 = "I love man"; break;
-		case 4: test_13 = "Okaaaay~"; break;
+		case 1: test_13 = "Balap njeng"; break;
+		case 2: test_13 = "Masak njeng"; break;
 	}
 	
 	var guild = client.guilds.get("406354502023774208");
@@ -36,7 +34,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 10000000, 0);
+	setTimeout(testtime, 1000, 0);
 	
 	/*
 	switch(Math.floor((Math.random() * 3) + 1)) {
