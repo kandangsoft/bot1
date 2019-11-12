@@ -35,7 +35,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test_13 = "";
 	
-	setTimeout(testtime, 1000, 0);
+	//setTimeout(testtime, 1000, 0);
 	
 	/*
 	switch(Math.floor((Math.random() * 3) + 1)) {
