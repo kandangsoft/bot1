@@ -29,21 +29,13 @@ function testtime(arg) {
 
 client.on('ready', () => {
     	console.log('I am ready!');
-	client.user.setActivity("FATAL FURRY");
+	client.user.setActivity("");
 	
 	var bo_gen = "";
 	var bo_meow = "";
 	var test_13 = "";
 	
 	//setTimeout(testtime, 1000, 0);
-	
-	/*
-	switch(Math.floor((Math.random() * 3) + 1)) {
-		case 1: bo_gen = "Aing kamari nyieun manisan kadongdong tapi kadongdong na teh lain kalah ka nyakrek nu aya kalah ka hipu jiga kulub boled"; break;
-		case 2: bo_gen = "Nyak sok bagi dua sia plastik na aing roti na adil tah kehed"; break;
-		case 3: bo_gen = "Duit na heueuh ti sia tapi aing nu meuli na indit ka ditu make ojeg beak genep rebu tekor sarebu tah aing"; break;
-	}
-	*/
 	
 	if (bo_gen != "")
 	{
@@ -63,6 +55,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 	
+	return;
     if (msg.author.bot) return;
 		
 	var msgt = msg.content.toLowerCase();
@@ -184,6 +177,7 @@ client.on('message', msg => {
 	
 })
 
+/*
 client.on('guildMemberAdd', member => {
 	const channel = member.guild.channels.find(ch => ch.name === 'member-log');
 	if (!channel) return;
@@ -201,5 +195,6 @@ function attachIsImage2(msgAttach) {
     //True if this url is a jpg image.
     return url.indexOf("jpg", url.length - "jpg".length ) !== -1;
 }
+*/
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN3);
