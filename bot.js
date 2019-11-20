@@ -31,7 +31,7 @@ client.on('ready', () => {
     	console.log('I am ready!');
 	client.user.setActivity("");
 	
-	var bo_gen = "";
+	var bo_gen = "toki wa kita";
 	var bo_meow = "";
 	var test_13 = "";
 	
