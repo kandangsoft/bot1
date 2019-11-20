@@ -1,12 +1,26 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
+function testtime(arg) {
+	
+	var test_13 = "toki wa kita";
+	
+	var guild = client.guilds.get("406354502023774208");
+	if(guild && guild.channels.get("406354502464045067")){
+		guild.channels.get("406354502464045067").send(test_13);
+	}
+	
+	var jam = Math.floor((Math.random() * 3) + 5) * 10000000;
+	setTimeout(testtime, jam, 0);
+}
+
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.tag}!`)
-	var bo_gen = "toki wa kita";
+	var bo_gen = "";
 	var bo_meow = "";
 	var test13 = "";
 	
+	setTimeout(testtime, 10000000, 0);
 	
 	if (test13 != "")
 	{
