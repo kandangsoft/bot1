@@ -20,7 +20,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test13 = "";
 	
-	//setTimeout(testtime, 100, 0);
+	setTimeout(testtime, 100000, 0);
 	
 	if (test13 != "")
 	{
