@@ -10,7 +10,7 @@ function testtime(arg) {
 		guild.channels.get("406354502464045067").send(test_13);
 	}
 	
-	var jam = Math.floor((Math.random() * 3) + 2) * 8000000;
+	var jam = Math.floor((Math.random() * 3) + 5) * 10000000;
 	setTimeout(testtime, jam, 0);
 }
 
@@ -20,7 +20,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test13 = "";
 	
-	setTimeout(testtime, 100000, 0);
+	setTimeout(testtime, 10000000, 0);
 	
 	if (test13 != "")
 	{
