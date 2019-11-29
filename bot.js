@@ -11,7 +11,7 @@ function testtime(arg) {
 	}
 	
 	var jam = Math.floor((Math.random() * 3) + 5) * 100000000;
-	setTimeout(testtime, jam, 0);
+	setTimeout(testtime, 21600000, 0);
 }
 
 client.on('ready', () => {
@@ -20,7 +20,7 @@ client.on('ready', () => {
 	var bo_meow = "";
 	var test13 = "";
 	
-	setTimeout(testtime, 100000000, 0);
+	setTimeout(testtime, 100, 0);
 	
 	if (test13 != "")
 	{
