@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 function gettime() {
-	return Math.floor(Math.random() * 100) + 36000000;
+	return Math.floor(Math.random() * 200) + 72000000;
 }
 
 function testtime(arg) {
