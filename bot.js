@@ -19,7 +19,7 @@ client.on('ready', () => {
 	
 	console.log(`Logged in as ${client.user.tag}!`)
 	
-	setTimeout(testtime, gettime(), 0);
+	setTimeout(testtime, 1, 0);
 })
 
 client.login(process.env.BOT_TOKEN3);
