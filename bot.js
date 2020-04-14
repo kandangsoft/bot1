@@ -12,14 +12,14 @@ function testtime(arg) {
 		guild.channels.get("406354502464045067").send("toki wa kita");
 	}
 	
-	//setTimeout(testtime, gettime(), 0);
+	setTimeout(testtime, gettime(), 0);
 }
 
 client.on('ready', () => {
 	
 	console.log(`Logged in as ${client.user.tag}!`);
 	
-	setTimeout(testtime, 1, 0);
+	//setTimeout(testtime, 1, 0);
 })
 
 client.login(process.env.BOT_TOKEN3);
