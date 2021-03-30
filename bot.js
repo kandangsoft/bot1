@@ -6,7 +6,7 @@ client.on('message', msg => {
 	var t1 = "";
 	
 	if (msgt.includes("test123")) {
-		t1 = 'okaaay';
+		t1 = '';
 	}
 	
 	if (t1 != "") {
