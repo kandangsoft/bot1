@@ -3,6 +3,7 @@ const client = new Discord.Client()
 
 client.on('message', msg => {
 	var msgt = msg.content.toLowerCase();
+	var t1 = "";
 	
 	if (msgt.includes("test123")) {
 		t1 = 'okaaay';
